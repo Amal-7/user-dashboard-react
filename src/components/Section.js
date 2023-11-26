@@ -20,9 +20,9 @@ const Section = () => {
           
         }}
       >
-        <div className="flex gap-2 min-h-[90vh]">
+        <div className="flex gap-2 min-h-[100vh]">
 
-          <div className="flex flex-col justify-evenly w-[97%]  bg-white p-6 ">
+          <div className="flex flex-col justify-evenly w-[96%]  bg-white p-6 ">
 
 
 
@@ -77,7 +77,7 @@ const Section = () => {
             />
             </div>
 
-            <div className="flex flex-wrap justify-evenly  px-[6%]">
+            <div className=" flex flex-wrap justify-evenly    px-[4%]">
             <BottomCard  {...{
                 type: "Free Starter",
                 color: "#d6f7a6",

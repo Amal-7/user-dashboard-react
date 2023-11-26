@@ -8,7 +8,7 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 const Card = ({type , price , offerPrice , color  , users , gb , support}) => {
 
     return (
-        <div className="flex flex-col justify-center  rounded-md  shadow-xl p-6 gap-1 min-w-[30%]">
+        <div className="card flex flex-col justify-center  rounded-md  shadow-xl p-6 gap-1 min-w-[30%]">
         <h1 className="font-bold text-xl">{type}</h1>
         <h6 className="text-xs line-through " style={{textDecorationColor:'red'}}>{price}</h6>
         <h6 className="text-lg">{offerPrice}</h6>

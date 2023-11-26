@@ -9,14 +9,33 @@
   min-height: 100vh;
 }
 
+.MuiDrawer-root {
+  height: 100%;
+}
+
 @media (max-width: 768px) {
   .userName {
     display: none;
   }
 
-.bottomCard {
-  max-width: 100%;
-}
+  .bottomCard {
+    min-width: 100%;
+  }
+
+  .bottomcard1 {
+    min-width: 100%;
+
+  }
+
+  .bottomcard2 {
+    min-width: 100%;
+
+  }
+
+  .card {
+    min-width: 100%
+  }
+
 }
 
 

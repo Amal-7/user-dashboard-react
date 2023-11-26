@@ -33,7 +33,7 @@ const Sidebar = () => {
   };
 
   const drawer = (
-    <div>
+    < >
     
       <Toolbar
         sx={{
@@ -99,13 +99,13 @@ const Sidebar = () => {
 
       <button className="mt-auto ">Logout <PowerSettingsNewIcon  /></button>
       </div>
-    </div>
+    </>
   )
 
 
   return (
     <Box  
-    sx={{ display: "flex" ,}}>
+    sx={{ display: "flex"  }}>
       <CssBaseline />
 
       <IconButton
@@ -113,7 +113,7 @@ const Sidebar = () => {
         aria-label="open drawer"
         edge="start"
         onClick={handleDrawerToggle}
-        sx={{ mx: 2, display: { sm: "none" } }}
+        sx={{ mx: 2, display: { sm: "none" },alignItems:'flex-start' ,height:'fit-content' }}
       >
         <MenuIcon />
       </IconButton>
@@ -124,7 +124,7 @@ const Sidebar = () => {
         sx={{
           width: { sm: drawerWidth },
           flexShrink: { sm: 0 },
-          marginTop: "50px",
+         
         }}
         aria-label="mailbox folders"
       >
@@ -140,6 +140,7 @@ const Sidebar = () => {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
+             
             },
           }}
         >
@@ -152,7 +153,8 @@ const Sidebar = () => {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
-              marginTop: "6.05rem",
+              position:'relative',
+              
             },
           }}
           open
